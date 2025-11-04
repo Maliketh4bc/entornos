@@ -38,7 +38,7 @@ git add index.html
 git commit -m "Estructura HTML básica en main"
 ```
 
-![alt text](<img/1.png>)
+![alt text](<img/1.jpg>)
 
 ---
 
@@ -65,7 +65,7 @@ git add index.html
 git commit -m "Añadido el nombre en rama-1"
 ```
 
-![alt text](<img/2.png>)
+![alt text](<img/2.jpg>)
 
 ---
 
@@ -93,7 +93,7 @@ git add index.html
 git commit -m "Añadido apellido en rama-2"
 ```
 
-![alt text](<img/3.png>)
+![alt text](<img/3.jpg>)
 
 ---
 
@@ -103,7 +103,7 @@ git commit -m "Añadido apellido en rama-2"
 git log --oneline --graph --all
 ```
 
-![alt text](<img/4.png>)
+![alt text](<img/4.jpg>)
 
 ---
 
@@ -118,7 +118,7 @@ git merge rama-2
 
 El conflicto se produce porque ambas ramas modifican la misma parte del `<body>` del archivo index.html.
 
-![alt text](<img/5.png>)
+![alt text](<img/5.jpg>)
 
 En este punto el archivo se verá así:
 
@@ -152,7 +152,7 @@ git add index.html
 git commit -m "Conflicto resuelto entre rama-1 y rama-2"
 ```
 
-![alt text](<img/6.png>)
+![alt text](<img/6.jpg>)
 
 ---
 
@@ -162,7 +162,7 @@ git commit -m "Conflicto resuelto entre rama-1 y rama-2"
 git log --oneline --graph --all
 ```
 
-![alt text](<img/7.png>)
+![alt text](<img/7.jpg>)
 
 ---
 
@@ -175,7 +175,7 @@ git switch main
 git merge rama-1
 ```
 
-![alt text](<img/8.png>)
+![alt text](<img/8.jpg>)
 
 ---
 
@@ -185,7 +185,7 @@ git merge rama-1
 git branch --merged
 ```
 
-![alt text](<img/9.png>)
+![alt text](<img/9.jpg>)
 
 ---
 
@@ -202,7 +202,7 @@ git add index.html
 git commit -m "Actualización final en main"
 ```
 
-![alt text](<img/10.png>)
+![alt text](<img/10.jpg>)
 
 ---
 
@@ -221,7 +221,7 @@ Y comprobamos que solo queda la rama principal:
 git branch
 ```
 
-![alt text](<img/11.png>)
+![alt text](<img/11.jpg>)
 
 ---
 
@@ -246,4 +246,4 @@ El contenido final debe quedar así:
 prueba/
 ```
 
-![alt text](<img/12.png>)
+![alt text](<img/12.jpg>)
